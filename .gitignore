@@ -1,0 +1,40 @@
+# Exclude .git directory (although .git is automatically ignored in gitignore)
+.git/
+
+# JetBrains IDE (e.g., CLion) project files
+.idea/
+
+# CMake build directory
+cmake-build-debug/
+
+# Build files
+build/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug and Release directories
+Debug/
+Release/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
