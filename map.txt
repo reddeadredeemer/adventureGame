@@ -1,0 +1,10 @@
+----------
+|S||||||||
+|.||||||||
+|.#|||||||
+||.|||||||
+||.#||||||
+||||||||||
+==========
+2,3 You encounter a mural blah blah blah blah
+3,5 The walls have cool stuff on them blah blah

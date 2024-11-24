@@ -10,22 +10,21 @@
 				{
 					"includeDirectories" : 
 					[
-						"/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include",
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include",
-						"/Library/Developer/CommandLineTools/usr/include"
+						"/usr/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib"
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib"
 					],
 					"linkFrameworkDirectories" : 
 					[
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks"
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"
 					],
 					"linkLibraries" : []
 				},
 				"path" : "/Library/Developer/CommandLineTools/usr/bin/cc",
-				"version" : "14.0.3.14030022"
+				"version" : "11.0.3.11030032"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 

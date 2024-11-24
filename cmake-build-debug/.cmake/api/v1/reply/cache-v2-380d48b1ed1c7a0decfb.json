@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/christopherjofre/CLionProjects/adventuregame/cmake-build-debug"
+			"value" : "/Users/dunwell/code/adventureGame/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/private/var/folders/lg/r17wxrq96vjcrcbv7r4jhpgc0000gn/T/AppTranslocation/6705CA83-BE26-4968-85FB-305F966857CF/d/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake"
+			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/private/var/folders/lg/r17wxrq96vjcrcbv7r4jhpgc0000gn/T/AppTranslocation/6705CA83-BE26-4968-85FB-305F966857CF/d/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack"
+			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/private/var/folders/lg/r17wxrq96vjcrcbv7r4jhpgc0000gn/T/AppTranslocation/6705CA83-BE26-4968-85FB-305F966857CF/d/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest"
+			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/christopherjofre/CLionProjects/adventuregame/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/dunwell/code/adventureGame/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -395,7 +395,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Ninja"
+			"value" : "Unix Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/christopherjofre/CLionProjects/adventuregame"
+			"value" : "/Users/dunwell/code/adventureGame"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -494,12 +494,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "/private/var/folders/lg/r17wxrq96vjcrcbv7r4jhpgc0000gn/T/AppTranslocation/6705CA83-BE26-4968-85FB-305F966857CF/d/CLion.app/Contents/bin/ninja/mac/aarch64/ninja"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/make"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -675,7 +679,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -767,7 +771,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/private/var/folders/lg/r17wxrq96vjcrcbv7r4jhpgc0000gn/T/AppTranslocation/6705CA83-BE26-4968-85FB-305F966857CF/d/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30"
+			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.30"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1031,7 +1035,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/christopherjofre/CLionProjects/adventuregame/cmake-build-debug"
+			"value" : "/Users/dunwell/code/adventureGame/cmake-build-debug"
 		},
 		{
 			"name" : "adventuregame_IS_TOP_LEVEL",
@@ -1055,7 +1059,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/christopherjofre/CLionProjects/adventuregame"
+			"value" : "/Users/dunwell/code/adventureGame"
 		}
 	],
 	"kind" : "cache",
