@@ -1,3 +1,13 @@
+/* TODO
+ * 1) Implement isAdjacentToDiscovered function
+ * 2) Create more detailed map file for fun
+ * 3) If a map file is not provided (or missing/error) then implement a function to generate a map randomly (investigate procedurally generated mazes)
+ * 4) Add inventory and/or items to the data structures
+ * 5) Add multi-step scenarios and adjust map.txt structure and parseMapFile to handle it
+ * 6) ???????
+ * 7) Profit
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -125,22 +135,17 @@ void parseMapFile(const char *filename, Map *map) {
     free(flavorTextLines);
 }
 
+/**
+ * Determines if the input x,y is adjacent to a discovered tile on input Map
+ *
+ * @param map Map struct of the current map
+ * @param x the x position to determine adjacency
+ * @param y the y position to determine adjacency
+ * @return true if x,y is adjacent to a discovered tile on map, false otherwise
+ */
 bool isAdjacentToDiscovered(Map *map, int x, int y) {
-    // Include diagonals in the adjacency check
-    int dx[] = { -1,  0,  1,  0, -1, -1,  1,  1 };
-    int dy[] = {  0,  1,  0, -1, -1,  1, -1,  1 };
-
-    for (int dir = 0; dir < 8; dir++) { // Loop through all 8 directions
-        int adjX = x + dx[dir];
-        int adjY = y + dy[dir];
-
-        if (adjX >= 0 && adjX < map->width && adjY >= 0 && adjY < map->height) {
-            if (map->map[adjY][adjX].isDiscovered) {
-                return true;
-            }
-        }
-    }
-    return false;
+    // TODO implement
+    return true;
 }
 
 void printMap(Map *map, bool showAll) {
@@ -250,6 +255,7 @@ void repl(Map *map) {
 
 int main() {
     Map map;
+    // clear memory and set to 0
     memset(&map, 0, sizeof(Map));
 
     parseMapFile("map.txt", &map);
